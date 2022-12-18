@@ -1,0 +1,392 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    transition: all 0.3s ease-in-out;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.container-fluid {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+.banner video {
+    width: 100%;
+}
+
+.banner {
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.banner-info {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    color: white;
+    margin-left: -25%;
+
+}
+
+.banner-info h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+
+.banner-info p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.menu {
+    list-style: none;
+    column-gap: 30px;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -.5px;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    color: #0065ed;
+}
+
+.menu img {
+    width: 20px;
+    position: relative;
+    top: 5px;
+    left: 2px;
+}
+
+.menu li .submenus-cover {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    background-color: white;
+    z-index: 100;
+    min-width: 200px;
+    padding: 15px 40px;
+}
+
+.menu>li {
+    position: relative;
+}
+
+.menu>li:hover .submenus-cover {
+    display: block;
+}
+
+.submenus,
+.submenu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.submenu-item {
+    border-bottom: 1px solid lightgray;
+}
+
+.submenu-item a {
+    padding: 10px 0;
+    display: block;
+}
+
+.submenus {
+    display: flex;
+    column-gap: 10px;
+}
+
+.submenus .submenu-wrapper {
+    flex: 1;
+}
+
+.outline-button {
+    display: table;
+    background-color: white;
+    border: 1px solid #0065ed;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin-left {
+    margin-left: 200px;
+}
+
+.user-icon {
+    list-style: none;
+
+    column-gap: 30px;
+    margin: 0 0 0 auto;
+
+    padding: 0;
+    align-items: center;
+}
+
+.user-icon li:last-child a {
+    text-decoration: none;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.button-blue {
+    color: white;
+    background-color: #0065ed;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+    min-width: 150px;
+    text-align: center;
+}
+
+.button-blue.position-fix {
+    position: absolute;
+}
+
+.button-blue:hover {
+    padding: 15px 20px;
+}
+
+.discover-banner {
+    background-image: url(../image/banner-1120.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 550px;
+    background-size: 100%;
+    margin-top: 50px;
+}
+
+.discover-banner>div {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.discover-banner>div>div {
+
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 20px;
+    color: white;
+}
+
+.discover-banner h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.discover-banner h4 {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.card {
+    flex: 1;
+}
+
+.image-cap {
+    width: 100%;
+}
+
+.container {
+    max-width: 1176px;
+    margin: 0 auto;
+}
+
+.block-2-column {
+    margin-top: 34px;
+
+}
+
+.block-2-column .display-flex {
+    column-gap: 20px;
+}
+
+.ai-banner {
+    background-image: url(../image/banner_rai_nokia.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+
+    margin-top: 60px;
+    background-position: center;
+    height: 550px;
+    background-size: cover;
+}
+
+.ai-banner>div>div>div {
+    align-self: flex-end;
+    padding: 90px 90px;
+    background-color: #0065ed;
+    color: white;
+    font-size: 20px;
+}
+
+.ai-banner .container {
+    height: 100%;
+}
+
+.ai-banner h1 {
+    font-size: 40px;
+    padding-bottom: 24px;
+    font-weight: 500;
+}
+
+.ai-banner>div {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+}
+
+.white-button {
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.1s;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.white-button:hover {
+    transform: scale(1.1);
+    padding: 15px 20px;
+}
+
+.block-3-column {
+    margin-top: 80px;
+}
+
+.card a:hover {
+    text-decoration: underline;
+    color: #0065ed;
+}
+
+
+
+
+.card div:hover img {
+    transform: scale(1.1);
+
+}
+
+.card div {
+    overflow: hidden;
+    max-height: 360px;
+}
+
+.card a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    display: block;
+    margin-bottom: 15px;
+    font-weight: 600;
+
+}
+
+.social-control {
+    list-style-type: none;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.footer {
+    background-color: #001135;
+    color: white;
+    padding-top: 34px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+
+.footer-menu {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.subscribe-button {
+    color: white;
+    border-color: white;
+    padding: 15px;
+
+}
+
+.block {
+    flex: 1;
+}
+
+.block>a {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.item {
+    list-style: none;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.item a {
+    font-size: 12px;
+    font-weight: 200px;
+}
+
+.margin-left-auto {
+    margin-left: auto;
+}
+
+.web-info {
+    column-gap: 20px;
+    font-size: 12px;
+}
+
+.column-gap {
+    column-gap: 30px;
+}
+
+.articles {
+    column-gap: 15px;
+}
+
+.articles .card div {
+    max-height: 250px;
+}
